@@ -80,4 +80,3 @@ for link in links:
     print('====================')
 
 print('\n=== Completed!')
-sleep(4)
