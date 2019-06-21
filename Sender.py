@@ -67,7 +67,7 @@ counter = 0
 
 for link in links:
     counter += 1
-    print(f'Proccesing {link}... {counter} of {all_}.')
+    print(f'Processing {link}... {counter} of {all_}.')
     code = re.findall('https://faradars.org/courses/(.+)/.+', link)[0].upper()
     payload = {'nazri-course-sku': code, 'email': email}
     r = s.post(url, payload, allow_redirects=False)
